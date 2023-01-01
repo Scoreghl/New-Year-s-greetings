@@ -134,8 +134,34 @@ int main(){
 	about_black();
 	SetPos(12,10);
 	cout<<"没关系，都要翻篇了。";
-
+	Sleep(1500);
+	about_black();
+	SetPos(1,10);
+	cout<<"往后的日子，都是崭新的，谁也不许回头看\n";
+	cout<<"		请保持热爱，奔赴下一场山海";
+	about_black();
+	Sleep(1000);
+	SetPos(0,9);
+	cout<<"以诚挚之心，领岁月教诲，敬年少热忱，愿将来胜过往，永远热泪盈眶";
+	Sleep(1000);
+	about_black();
+	SetPos(0,11);
+	cout<<"新的一年，有始料不及的运气，有突如其来的惊喜";
+	Sleep(1000);
+	about_black();
+	SetPos(1,10);
+	cout<<"新的一年，想要的都拥有，得不到的都释怀";
+	Sleep(1000);
+	about_black();
+	SetPos(6,11);
+	cout<<"新的一年，愿与诸君共度!";
+	Sleep(1500);
+	about_black();
+	SetPos(1,11);
+	cout<<"愿诸位，招财进宝，日进斗金！";
+	Sleep(1000);
+	about_black();
+	cout<<"祝所有人，2023每一天都快乐!";
 	system("pause");
-	end();
 	return 0;
 }
