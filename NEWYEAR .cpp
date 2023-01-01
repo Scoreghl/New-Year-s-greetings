@@ -1,6 +1,6 @@
 /*
 	项目名称：新春祝福
-	项目版本：0.18.1 Release
+	项目版本：1.0.0.0 Release
 	项目作者：bilibili@SYSTEM-ScoreGao
 */
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ void window()
 	text(0,25);
 	show_window(true);
 	hide_cursor();
-	system("title 新春祝福 0.18.1 Release");
+	system("title 新春祝福 1.0.0.0 Release");
 	system("mode con cols=40 lines=25");
 } 
 void about_black()
@@ -99,14 +99,14 @@ void begin(){
 	SetPos(3,13); 
 	for(int i=0;i<35;i++)
 	{
-		Sleep(200);
+		Sleep(100);
 		cout<<"=";
 		if(i==21)
 		{
-			Sleep(500);
+			Sleep(250);
 		}else if(i==33)
 		{
-			Sleep(2000);
+			Sleep(1000);
 		}
 	}
 }
@@ -138,12 +138,12 @@ int main(){
 	about_black();
 	SetPos(1,10);
 	cout<<"往后的日子，都是崭新的，谁也不许回头看\n";
-	cout<<"		请保持热爱，奔赴下一场山海";
-	about_black();
+	cout<<"	请保持热爱，奔赴下一场山海";
 	Sleep(1000);
+	about_black();
 	SetPos(0,9);
 	cout<<"以诚挚之心，领岁月教诲，敬年少热忱，愿将来胜过往，永远热泪盈眶";
-	Sleep(1000);
+	Sleep(1500);
 	about_black();
 	SetPos(0,11);
 	cout<<"新的一年，有始料不及的运气，有突如其来的惊喜";
@@ -161,7 +161,8 @@ int main(){
 	cout<<"愿诸位，招财进宝，日进斗金！";
 	Sleep(1000);
 	about_black();
-	cout<<"祝所有人，2023每一天都快乐!";
+	SetPos(5,11);
+	cout<<"祝所有人，2023每一天都快乐!\n";
 	system("pause");
 	return 0;
 }
